@@ -6,6 +6,7 @@ const Skip = () => {
     <div id="skip">
       <a href='#header'>헤더 영억 바로가기</a>
       <a href='#intro'>소개 영억 바로가기</a>
+      <a href='#edu'>교육 영억 바로가기</a>
       <a href='#skill'>스킬 영억 바로가기</a>
       <a href='#site'>사이트 영억 바로가기</a>
       <a href='#port'>포트폴리오 영억 바로가기</a>
