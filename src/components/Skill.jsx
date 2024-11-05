@@ -8,7 +8,7 @@ const Skill = () => {
             <div className="skill__inner">
                 <h2 className="skill__title">My Skill <em>스킬</em></h2>
                 <div className="skill__desc">
-                        <img src={skill}></img>
+                        <img src={skill} alt="Skill Set"></img>
                 </div>
             </div>
         </section>
