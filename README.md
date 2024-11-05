@@ -3,7 +3,7 @@
 1. [react.js]를 이용하여 사이트를 제작합니다. 
 
 ## 완성작 보기 
-미리보기 : 
+미리보기 : port2024-react/giruan.netlify.app/
 
 ## 사용 스택
 - react(https://ko.legacy.reactjs.org/) 를 사용하여 사이트를 번들링하고 관리합니다.
