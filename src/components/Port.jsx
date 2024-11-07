@@ -48,7 +48,7 @@ const Port = () => {
             >
               <span className="num">{port.num}.</span>
               <a
-                href={port.code}
+                href={port.code || port.view}
                 target="_blank"
                 className="img"
                 rel="noreferrer"
@@ -64,12 +64,12 @@ const Port = () => {
                 ))}
               </ul>
               <a
-                href={port.code}
+                href={port.code || port.view}
                 target="_blank"
                 className="site"
                 rel="noreferrer"
               >
-                코드 보기
+                {port.code ? "코드 보기" : "사이트 보기"}
               </a>
             </article>
           ))}

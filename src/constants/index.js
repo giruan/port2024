@@ -1,4 +1,5 @@
 import port01 from "../assets/img/port01.png";
+import port02 from "../assets/img/port02.jpg";
 
 
 
@@ -61,8 +62,19 @@ export const siteText = [
         server: "https://github.com/giruan/teamFood",
         info: [
             "group work",
-            "production period : 4 weeks",
+            "production period : 7 weeks",
             "use stack : HTML/CSS, JavaScript, React, BootStrap, Node, Express, Sequelize, MySQL",
+        ],
+    },
+    {
+        text: ["make", "site compliant with", "react.js"],
+        title: "가위바위보 게임 사이트",
+        code: "https://github.com/giruan/RockPaperScissors",
+        view: "https://giruan.github.io/RockPaperScissors/",
+        info: [
+            "solo work",
+            "production period : 4 days",
+            "use stack : HTML/CSS, JavaScript, React",
         ],
     },
   ];
@@ -75,11 +87,16 @@ export const portText = [
     title:
       "사용자들의 리뷰를 기반으로, 선호하는 맛집을 찾을 수 있는 맛집 추천 사이트",
       desc: [
-        "사이트의 전반적인 Front-End 구성 담당.",
-        "사용자들의 리뷰의 평균점과 개수, 내용 출력",
-        "사진 등록 및 사진 삭제 기능",
-        "검색 페이지 정보를 서버에서 불러와 출력",
-        "상세 페이지 사진 모달, 더보기 기능, 사용자별 리뷰 개수 및 리뷰 평균"
+        "사용자들의 리뷰를 기반으로 취합된 데이터를 활용하여,", 
+        "사용자들이 선호하는 맛집을 쉽게 찾을 수 있도록 합니다.",
+        "사용자의 위치를 기반으로 주변 식당의 위치를 파악하여,",
+        "불필요한 동선과 메뉴 고민에 드는 시간을 줄일 수 있습니다.",
+        "선호도가 높은 가게를 더욱 쉽게 찾아낼 수 있게 됩니다.",
+        // "사이트의 전반적인 Front-End 구성 담당.",
+        // "사용자들의 리뷰의 평균점과 개수, 내용 출력",
+        // "사진 등록 및 사진 삭제 기능",
+        // "검색 페이지 정보를 서버에서 불러와 출력",
+        // "상세 페이지 사진 모달, 더보기 기능, 사용자별 리뷰 개수 및 리뷰 평균"
       ],
     img: port01,
     code: "https://github.com/giruan/reactFood",
@@ -88,11 +105,17 @@ export const portText = [
   {
     num: "02",
     title:
-      "준비중",
-      desc: [
-        "준비중"
-      ],
-    code: "",
+    "가위바위보 게임 사이트",
+    desc: [
+      "컴퓨터와 가위바위보를 할 수 있는 사이트",
+      "버튼을 눌러 가위, 바위, 보 중 하나를 선택,",
+      "버튼을 누를 시 해당 선택에 맞는 이미지가 나타납니다.",
+      "승리 시 초록색 테두리가 생기고 패배 시 빨간색 테두리,",
+      "비길 시에는 보라색 테두리가 생깁니다"
+      
+    ],
+    img: port02,
+    view: "https://giruan.github.io/RockPaperScissors/",
     name: "포트폴리오",
   },
 ];
