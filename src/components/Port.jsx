@@ -56,13 +56,11 @@ const Port = () => {
                 <img src={port.img} alt={port.name} />
               </a>
               <h3 className="title">{port.title}</h3>
-              <ul>
                 {port.desc.map((item, index) => (
-                  <li className="desc" key={index}>
+                  <p className="desc" key={index}>
                     {item}
-                  </li>
+                  </p>
                 ))}
-              </ul>
               <a
                 href={port.code || port.view}
                 target="_blank"

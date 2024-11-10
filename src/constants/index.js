@@ -56,8 +56,8 @@ export const eduText = [
 
 export const siteText = [
     {
-        text: ["make", "site compliant with", "react.js"],
-        title: "사용자들의 리뷰를 기반으로, 선호하는 맛집을 찾을 수 있는 맛집 추천 사이트",
+        text: ["사용자들의 리뷰를 기반으로", "맛집을 찾을 수 있는"," 맛집 추천 사이트"],
+        title: "make site compliant with react.js",
         code: "https://github.com/giruan/reactFood",
         server: "https://github.com/giruan/teamFood",
         info: [
@@ -67,8 +67,8 @@ export const siteText = [
         ],
     },
     {
-        text: ["make", "site compliant with", "react.js"],
-        title: "가위바위보 게임 사이트",
+        text:["가위바위보 게임 사이트"],
+        title: "make site compliant with react.js",
         code: "https://github.com/giruan/RockPaperScissors",
         view: "https://giruan.github.io/RockPaperScissors/",
         info: [
