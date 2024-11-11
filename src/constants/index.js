@@ -77,6 +77,17 @@ export const siteText = [
             "use stack : HTML/CSS, JavaScript, React",
         ],
     },
+    {
+        text:["사용자 위치별"," 날씨 사이트","(제작중)"],
+        title: "make site compliant with react.js",
+        code: "https://github.com/giruan",
+        view: "https://giruan.github.io/",
+        info: [
+            "solo work",
+            "production period : 1 week",
+            "use stack : HTML/CSS, JavaScript, React",
+        ],
+    },
   ];
 
 
@@ -116,6 +127,22 @@ export const portText = [
     ],
     img: port02,
     view: "https://giruan.github.io/RockPaperScissors/",
+    name: "포트폴리오",
+  },
+  {
+    num: "03",
+    title:
+    "사용자 위치별 날씨 사이트 (제작중)",
+    desc: [
+      "사용자의 위치를 가반으로 날씨를 알 수 있는 사이트",
+      "/",
+      "/",
+      "/",
+      "/"
+      
+    ],
+    img: port02,
+    view: "https://giruan.github.io/",
     name: "포트폴리오",
   },
 ];
