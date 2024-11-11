@@ -1,5 +1,6 @@
 import port01 from "../assets/img/port01.png";
 import port02 from "../assets/img/port02.jpg";
+import port03 from "../assets/img/port03.jpg";
 
 
 
@@ -78,13 +79,13 @@ export const siteText = [
         ],
     },
     {
-        text:["사용자 위치별"," 날씨 사이트","(제작중)"],
+        text:["사용자 위치별"," 날씨 사이트"],
         title: "make site compliant with react.js",
-        code: "https://github.com/giruan",
-        view: "https://giruan.github.io/",
+        code: "https://github.com/giruan/weatherPage",
+        view: " https://giruan.github.io/weatherPage/",
         info: [
             "solo work",
-            "production period : 1 week",
+            "production period : 10 days",
             "use stack : HTML/CSS, JavaScript, React",
         ],
     },
@@ -132,17 +133,17 @@ export const portText = [
   {
     num: "03",
     title:
-    "사용자 위치별 날씨 사이트 (제작중)",
+    "사용자 위치별 날씨 사이트",
     desc: [
       "사용자의 위치를 가반으로 날씨를 알 수 있는 사이트",
-      "/",
-      "/",
-      "/",
-      "/"
+      "온도는 섭씨와 화씨가 출력되고 해당 도시의 구름 상태를 나타낸다 ",
+      "현재 위치를 조회하여 현재 도시의 날씨 정보를 알수있다",
+      "버튼의 도시를 누르면 해당 도시의 날씨를 조회 가능",
+      "정보가 불러오는 중간에는 로딩 화면을 삽입해 자연스러운 로딩을 구현 ",
       
     ],
-    img: port02,
-    view: "https://giruan.github.io/",
+    img: port03,
+    view: " https://giruan.github.io/weatherPage/",
     name: "포트폴리오",
   },
 ];
