@@ -22,7 +22,11 @@ const Site = () => {
               <div className="btn">
                 <a href={site.code}>code</a>
                 {site.server ? (
+                  <>
                   <a href={site.server}>server code</a>
+                  <br/>
+                  <a className="PPT" href={site.ppt}>시연 PPT</a>
+                  </>
                 ) : (
                   <a href={site.view}>view</a>
                 )}

@@ -1,6 +1,7 @@
 import port01 from "../assets/img/port01.png";
 import port02 from "../assets/img/port02.jpg";
 import port03 from "../assets/img/port03.jpg";
+import port04 from "../assets/img/port04.jpg";
 
 
 
@@ -61,6 +62,7 @@ export const siteText = [
         title: "make site compliant with react.js",
         code: "https://github.com/giruan/reactFood",
         server: "https://github.com/giruan/teamFood",
+        ppt: "https://docs.google.com/presentation/d/1tb8bCudAzs6i7BBIRKQ0Y41FfKRKFe02/edit?usp=sharing&ouid=114563875968308176786&rtpof=true&sd=true",
         info: [
             "group work",
             "production period : 7 weeks",
@@ -89,6 +91,17 @@ export const siteText = [
             "use stack : HTML/CSS, JavaScript, React",
         ],
     },
+    {
+        text:["H & M 쇼핑몰"," 사이트"],
+        title: "make site compliant with react.js",
+        code: "https://github.com/giruan/shoppingmall",
+        view: " https://giruan.github.io/shoppingmall/",
+        info: [
+            "solo work",
+            "production period : 12 days",
+            "use stack : HTML/CSS, JavaScript, React",
+        ],
+    },
   
   ];
 
@@ -105,11 +118,6 @@ export const portText = [
         "사용자의 위치를 기반으로 주변 식당의 위치를 파악하여,",
         "불필요한 동선과 메뉴 고민에 드는 시간을 줄일 수 있습니다.",
         "선호도가 높은 가게를 더욱 쉽게 찾아낼 수 있게 됩니다.",
-        // "사이트의 전반적인 Front-End 구성 담당.",
-        // "사용자들의 리뷰의 평균점과 개수, 내용 출력",
-        // "사진 등록 및 사진 삭제 기능",
-        // "검색 페이지 정보를 서버에서 불러와 출력",
-        // "상세 페이지 사진 모달, 더보기 기능, 사용자별 리뷰 개수 및 리뷰 평균"
       ],
     img: port01,
     code: "https://github.com/giruan/reactFood",
@@ -136,7 +144,7 @@ export const portText = [
     title:
     "사용자 위치별 날씨 사이트",
     desc: [
-      "사용자의 위치를 가반으로 날씨를 알 수 있는 사이트",
+      "사용자의 위치를 기반으로 날씨를 알 수 있는 사이트",
       "온도는 섭씨와 화씨가 출력되고 해당 도시의 구름 상태를 나타낸다 ",
       "현재 위치를 조회하여 현재 도시의 날씨 정보를 알수있다",
       "버튼의 도시를 누르면 해당 도시의 날씨를 조회 가능",
@@ -145,6 +153,22 @@ export const portText = [
     ],
     img: port03,
     view: " https://giruan.github.io/weatherPage/",
+    name: "포트폴리오",
+  },
+  {
+    num: "04",
+    title:
+    "H & M 쇼핑몰 사이트",
+    desc: [
+      "H & M의 다자인을 참고한 쇼핑몰 사이트",
+      "상품의 기본적인 정보와 신상품, 추천상품을 알 수 있다 ",
+      "로그인을 해야지만 디테일을 확인 할 수 있다",
+      "디테일 페이지에서 상품의 사이즈와 정보를 볼 수 있다",
+      "로그인 시 상단의 로그인 버튼이 로그아웃으로 변경 되도록 했다 ",
+      
+    ],
+    img: port04,
+    view: " https://giruan.github.io/shoppingmall/",
     name: "포트폴리오",
   },
 ];
